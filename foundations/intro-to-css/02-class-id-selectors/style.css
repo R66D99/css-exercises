@@ -1,0 +1,18 @@
+.OddNumbered {
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.OddNumbered.cooler {
+    font-size: 24px;
+}
+
+.Elements#nr2 {
+    color: blue;
+    font-size: 36px;
+}
+.Elements#nr4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
