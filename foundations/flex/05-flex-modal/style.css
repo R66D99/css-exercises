@@ -20,12 +20,50 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+
+
 }
+.icon-header-close-button {
+  display: flex;
+  justify-content: stretch;
+  align-items: flex-start;
+  outline: 0px solid red;
+}
+
+.header-text-buttons {
+  display: flex;
+  width: auto;
+  height: auto;
+  margin-left: 58px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  outline: 0px solid blue;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.header {
+  font-weight: bold;
+  font-size: large;
+  outline: 0px solid purple;
+}
+
+
 
 .icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
+  margin-right: 16px;
   background: lavender;
   width: 42px;
   height: 42px;
@@ -35,11 +73,21 @@ body {
   justify-content: center;
 }
 
+.text {
+  text-align: left;
+}
+
+.close-button-box {
+  outline: 0px solid green;
+  height: 24px;
+  margin-left: auto;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  font-weight:800;
   font-size: 16px;
   height: 24px;
   width: 24px;
@@ -48,6 +96,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  outline: 0px solid yellow;
 }
 
 button {

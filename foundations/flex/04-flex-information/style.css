@@ -9,8 +9,42 @@ img {
 
 .title {
   font-size: 36px;
-  font-weight: 900;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  outline: 0px solid green;
 }
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-container{
+  display: flex;
+  padding: 52px;
+  flex: auto;
+  gap: 52px;
+  justify-content: center;
+  align-items: center;
+  outline: 0px solid red;
+}
+
+.text {
+text-align: center;
+}
+
+.items {
+  display: flex;
+  width: 200px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: 0px solid blue;
+}
+
 
 /* do not edit this footer */
 .footer {
